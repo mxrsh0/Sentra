@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sentra — turn ideas into online businesses.">
+  <title>Sentra — Build What's Next</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Sentra home"><span class="brand-mark">S</span><span>SENTRA</span></a>
+    <nav class="nav-links">
+      <a href="#explore">Explore</a>
+      <a href="#how">How it works</a>
+      <a href="#vision">Vision</a>
+    </nav>
+    <a class="nav-cta" href="#explore">Start exploring <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> The online business workspace</div>
+        <h1>Turn a <span class="gradient-text">spark</span> into something real.</h1>
+        <p class="hero-lede">Sentra brings ideas, validation, planning and execution into one focused place — so you can spend less time wondering and more time building.</p>
+        <div class="hero-actions">
+          <a class="button button-primary magnetic" href="#explore">Explore opportunities <span>→</span></a>
+          <button class="button button-ghost" id="demoBtn">See the demo <span>▶</span></button>
+        </div>
+        <div class="micro-proof"><span>01</span> Discover <i></i><span>02</span> Validate <i></i><span>03</span> Build</div>
+      </div>
+      <div class="hero-visual reveal delay-1" aria-label="Interactive Sentra opportunity preview">
+        <div class="dashboard-shell tilt-card">
+          <div class="dash-top"><span class="window-dots"><b></b><b></b><b></b></span><span class="mono">SENTRA / OPPORTUNITY ENGINE</span><span class="status">LIVE DEMO</span></div>
+          <div class="dash-body">
+            <div class="dash-sidebar"><div class="side-active">✦ <span>Discover</span></div><div>◎ <span>Validate</span></div><div>◈ <span>Plan</span></div><div>↗ <span>Build</span></div></div>
+            <div class="dash-main">
+              <div class="dash-heading"><div><span class="muted mono">TODAY'S OPPORTUNITIES</span><h3>Find your next move.</h3></div><button class="filter" id="shuffleBtn">Shuffle ↻</button></div>
+              <div class="opportunity-card featured"><div class="tag">RISING</div><h4>AI tools for overlooked niches</h4><p>Package a focused workflow for a specific professional audience.</p><div class="score-row"><span>Opportunity score</span><strong>92</strong></div><div class="score"><span style="width:92%"></span></div></div>
+              <div class="mini-grid"><div class="mini-card"><span>01</span><strong>Creator utilities</strong><em>86 / 100</em></div><div class="mini-card"><span>02</span><strong>Micro-SaaS ideas</strong><em>81 / 100</em></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker"><div>IDEA → VALIDATION → PLAN → BUILD → GROW → IDEA → VALIDATION → PLAN → BUILD → GROW →</div></section>
+
+    <section class="section-pad explore" id="explore">
+      <div class="section-intro reveal"><div><span class="kicker">01 / DISCOVER</span><h2>Don't wait for<br><span class="gradient-text">the perfect idea.</span></h2></div><p>Start with a direction. Sentra's concept is to help you discover opportunities worth investigating, then give you the tools to decide what deserves your attention.</p></div>
+      <div class="idea-controls reveal"><button class="chip active" data-filter="all">All</button><button class="chip" data-filter="software">Software</button><button class="chip" data-filter="creator">Creator</button><button class="chip" data-filter="service">Services</button></div>
+      <div class="idea-grid" id="ideaGrid">
+        <article class="idea-card reveal" data-category="software"><div class="card-number">01</div><span class="idea-type">SOFTWARE</span><h3>Niche workflow copilot</h3><p>Turn repetitive research or admin into a focused AI-assisted product.</p><div class="idea-bottom"><span>92% fit</span><span>Explore →</span></div></article>
+        <article class="idea-card reveal delay-1" data-category="creator"><div class="card-number">02</div><span class="idea-type">CREATOR</span><h3>Creator launch kits</h3><p>Productised systems that help creators turn an audience into a repeatable offer.</p><div class="idea-bottom"><span>87% fit</span><span>Explore →</span></div></article>
+        <article class="idea-card reveal delay-2" data-category="service"><div class="card-number">03</div><span class="idea-type">SERVICE</span><h3>Productised automation</h3><p>Package one valuable automation into a simple, outcome-focused service.</p><div class="idea-bottom"><span>84% fit</span><span>Explore →</span></div></article>
+      </div>
+    </section>
+
+    <section class="how section-pad" id="how">
+      <div class="section-intro reveal"><div><span class="kicker">02 / THE LOOP</span><h2>From vague idea<br>to <span class="gradient-text">clear next step.</span></h2></div></div>
+      <div class="steps">
+        <div class="step reveal"><span>01</span><div><h3>Discover</h3><p>Explore ideas, markets, problems and business models.</p></div><b>↗</b></div>
+        <div class="step reveal"><span>02</span><div><h3>Validate</h3><p>Pressure-test demand, competition, audience and monetisation.</p></div><b>↗</b></div>
+        <div class="step reveal"><span>03</span><div><h3>Plan</h3><p>Turn the strongest concept into a practical launch sequence.</p></div><b>↗</b></div>
+        <div class="step reveal"><span>04</span><div><h3>Build</h3><p>Move from plan to product with the tools and integrations you need.</p></div><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="vision section-pad" id="vision">
+      <div class="vision-panel reveal"><span class="kicker">03 / THE VISION</span><h2>A home for people<br>who want to <span class="gradient-text">build.</span></h2><p>Today, Sentra is a visual prototype. Tomorrow, it can become an integrated operating layer for turning internet opportunities into real projects.</p><a href="#top" class="text-link">Back to the top ↑</a><div class="orbit"><span></span><span></span><span></span><div>S</div></div></div>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span class="brand-mark">S</span><span>SENTRA</span></div><span class="mono">A WORK IN PROGRESS — 2026</span></footer>
+  <div class="toast" id="toast">Demo interaction — this is where the real Sentra engine will connect.</div>
+  <script src="script.js"></script>
+</body>
+</html>
